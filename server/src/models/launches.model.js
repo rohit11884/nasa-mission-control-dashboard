@@ -6,7 +6,7 @@ const launch = {
     flightNumber: 100,
     mission: 'Kepler Exploration X',
     launchDate: new Date('November 11, 2024'),
-    destination: 'Kepler-442 b',
+    target: 'Kepler-442 b',
     customer: ['SpaceX', 'NASA'],
     upcoming: true,
     success: true,
@@ -14,6 +14,9 @@ const launch = {
 
 launches.set(launch.flightNumber, launch);
 
+function existsLaunchWithId (launchId){
+    return launches.has(launchId);
+}
 function getAllLaunches(){
     return Array.from(launches.values());
 }
@@ -31,7 +34,16 @@ function addNewLaunch(launch){
     );
 }
 
+function abortLaunchById(launchId){
+    const aborted = launches.get(launchId);
+    aborted.upcoming = false;
+    aborted.success = false;
+    return aborted;
+}
+
 module.exports = {
+    existsLaunchWithId,
     getAllLaunches,
     addNewLaunch,
+    abortLaunchById,
 };
