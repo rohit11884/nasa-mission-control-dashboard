@@ -11,12 +11,16 @@
     "client": "npm start --prefix client",
     "watch": "npm run server & npm run client",
     "deploy": "npm run build --prefix client && npm start --prefix server",
-    "test": "npm run test --prefix server && npm run test --prefix client"
+    "test": "npm run test --prefix server && npm run test --prefix client",
+    "GH-deploy": "gh-pages -d build"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.0.0"
   }
 }
