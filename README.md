@@ -1,16 +1,7 @@
 # NASA Mission Control Dashboard
 
-The NASA Mission Control Dashboard is a web application designed to provide real-time information and monitoring for NASA missions. It offers a comprehensive and user-friendly interface to track various aspects of space missions, including spacecraft telemetry, mission status, and communication with astronauts.
+The NASA Mission Control Dashboard is a web application simulates real-time information and monitoring for NASA missions. It offers a comprehensive and user-friendly interface to track various aspects of space missions.
 
-## Features
-
-- **Real-time Telemetry**: The dashboard displays live telemetry data from spacecraft, including vital parameters such as temperature, pressure, velocity, and more.
-
-- **Mission Status**: Get up-to-date information on the status of ongoing missions, including mission objectives, milestones, and current progress.
-
-- **Astronaut Communication**: The dashboard provides a communication channel to interact with astronauts during space missions. Users can send messages and receive responses in real-time.
-
-- **Alerts and Notifications**: Stay informed about critical events and updates through alerts and notifications. The dashboard will notify users of mission-related emergencies, important announcements, and scheduled activities.
 
 ## Installation
 
@@ -30,15 +21,15 @@ To install and run the NASA Mission Control Dashboard, follow these steps:
 
 3. Install the dependencies:
 
-  ```shell
-  npm install
-  ```
+   ```shell
+   npm install
+   ```
 
 4. Start the application:
   
-  ```shell
-  npm run server
-  ```
+   ```shell
+   npm run server
+   ```
 
 5. Open your web browser and access the dashboard at http://localhost:8000
 
@@ -47,16 +38,16 @@ Contributions to the NASA Mission Control Dashboard are welcome! If you would li
 
 1. Fork the repository and create your branch:
 
-  ```shell
-  git checkout -b feature/your-feature-name
-  ```
+   ```shell
+   git checkout -b feature/your-feature-name
+   ```
 
 2. Commit your changes and push to your forked repository:
 
-  ```shell
-  git commit -am 'Add some feature'
-  git push origin feature/your-feature-name
-  ```
+   ```shell
+   git commit -am 'Add some feature'
+   git push origin feature/your-feature-name
+   ```
 
 3. Create a new pull request from your branch to the main branch of the main repository.
 
