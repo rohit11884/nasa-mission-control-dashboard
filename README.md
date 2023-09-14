@@ -2,6 +2,8 @@
 
 The NASA Mission Control Dashboard is a web application simulates real-time information and monitoring for NASA missions. It offers a comprehensive and user-friendly interface to track various aspects of space missions.
 
+![Main_Screen](https://github.com/mmalekabs/nasa-mission-control-dashboard/assets/46497864/41c78baf-06a5-478d-aa28-db4410504697)
+
 
 ## Installation
 
