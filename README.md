@@ -47,7 +47,7 @@ Contributions to the NASA Mission Control Dashboard are welcome! If you would li
 2. Commit your changes and push to your forked repository:
 
    ```shell
-   git commit -am 'Add some feature'
+   git commit -m 'Add some feature'
    git push origin feature/your-feature-name
    ```
 
